@@ -1,0 +1,13 @@
+:root {
+  --btn-color: #0066CC;
+  --btn-hover-color: #0066CC;
+  --card-border: #0066CC;
+  --link-color: #0066CC;
+  --text-accent: #0066CC;
+}
+#progress { background: #0066CC !important; }
+a:hover { color: #32CD32 !important; }
+.article-container, .card-widget { border-top: 3px solid #0066CC !important; }
+#aside-content .card-widget .card-author-info__name:hover { color: #32CD32 !important; }
+.button--animated { background: #0066CC !important; }
+.button--animated:hover { background: #32CD32 !important; }
