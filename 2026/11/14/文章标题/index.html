@@ -1,0 +1,272 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>记录美好时光 | magna1-4 ��С��</title><meta name="author" content="magna1-4"><meta name="copyright" content="magna1-4"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="根本没有美好时光这是我在我的博客上写的第2个文章，老实说我搭建了这个博客但是我根本没有什么技术分享我既不是什么很厉害的程序员有一堆代码分享，我也不是嘉豪，真正的嘉豪早就会在同学群里分享这个博客（不止同学群）我这篇是为了记录我第一次搭建博客的经历及心理历程我真的要感谢ai吧，没了ai我也不会完成这个博客  博客非得建的很高级吗，建的很好笑不行吗大概是在14号下午的时候，我开始准备搭建博客。ai，是q">
+<meta property="og:type" content="article">
+<meta property="og:title" content="记录美好时光">
+<meta property="og:url" content="http://example.com/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/index.html">
+<meta property="og:site_name" content="magna1-4 ��С��">
+<meta property="og:description" content="根本没有美好时光这是我在我的博客上写的第2个文章，老实说我搭建了这个博客但是我根本没有什么技术分享我既不是什么很厉害的程序员有一堆代码分享，我也不是嘉豪，真正的嘉豪早就会在同学群里分享这个博客（不止同学群）我这篇是为了记录我第一次搭建博客的经历及心理历程我真的要感谢ai吧，没了ai我也不会完成这个博客  博客非得建的很高级吗，建的很好笑不行吗大概是在14号下午的时候，我开始准备搭建博客。ai，是q">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/img/butterfly-icon.png">
+<meta property="article:published_time" content="2026-11-14T15:20:30.000Z">
+<meta property="article:modified_time" content="2026-11-14T17:04:22.937Z">
+<meta property="article:author" content="magna1-4">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "记录美好时光",
+  "url": "http://example.com/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/",
+  "image": "http://example.com/img/butterfly-icon.png",
+  "datePublished": "2026-11-14T15:20:30.000Z",
+  "dateModified": "2026-11-14T17:04:22.937Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "magna1-4",
+      "url": "http://example.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        try {
+          const data = { value }
+
+          if (ttl != null) {
+            data.expiry = Date.now() + ttl * 86400000
+          }
+
+          localStorage.setItem(key, JSON.stringify(data))
+        } catch (e) {
+          console.error(e)
+        }
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.13.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '记录美好时光',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">magna1-4 ��С��</span></a><a class="nav-page-title" href="/"><span class="site-name">记录美好时光</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"></div></nav><div id="post-info"><h1 class="post-title">记录美好时光</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-11-14T15:20:30.000Z" title="Created 2026-11-14 23:20:30">2026-11-14</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-11-14T17:04:22.937Z" title="Updated 2026-11-15 01:04:22">2026-11-15</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="根本没有美好时光"><a href="#根本没有美好时光" class="headerlink" title="根本没有美好时光"></a>根本没有美好时光</h1><p>这是我在我的博客上写的第2个文章，老实说我搭建了这个博客但是我根本没有什么技术分享<br>我既不是什么很厉害的程序员有一堆代码分享，我也不是嘉豪，真正的嘉豪早就会在同学群里分享这个博客（不止同学群）<br>我这篇是为了记录我第一次搭建博客的经历及心理历程<br>我真的要感谢ai吧，没了ai我也不会完成这个博客</p>
+<hr>
+<h2 id="博客非得建的很高级吗，建的很好笑不行吗"><a href="#博客非得建的很高级吗，建的很好笑不行吗" class="headerlink" title="博客非得建的很高级吗，建的很好笑不行吗"></a>博客非得建的很高级吗，建的很好笑不行吗</h2><p>大概是在14号下午的时候，我开始准备搭建博客。<br>ai，是qq里面的ai，小q<br>是的，我一直用的不是豆包，ds，km啥的，而是小q<br>你们不觉得小q很方便吗，只用一个qq就可以了<br>其实主要是因为我没有手机号，其他的登录对我来说不是很方便<br>最重要的是用小q可以假装你很有朋友，列表里的人一看哎我擦你怎么一天到晚qq都在线<br>懂吧（尽管我列表目前只有两个人）</p>
+<p>我就根据小q的指示下载git，用hexo来搭建最后部署<br>node.js之前在玩Javascript的是时候就下了，vscode就更不必说了<br>所以搭建环境的时候其实很快，也幸亏很快<br>另外说一下我其实不会写html，那些我早就忘完了<br>安装之后我就开始写博客了<br>顺序是从设定主题，写博客，最后部署的顺序来的</p>
+<p>设定主题的话，我全程跟的是ai，用的是butterfly<br>从这个时候开始我的控制台就处于一个开始的状态，直到部署完成<br>在部署之前，这个控制台和这个网站，还有vscode和小q，这个本地的文件和文件夹<br><strong>简直是大乱斗级别的</strong><br><strong>你们去打八角笼吧我真管不了了</strong></p>
+<h2 id="真正的幸福在哪里"><a href="#真正的幸福在哪里" class="headerlink" title="真正的幸福在哪里"></a>真正的幸福在哪里</h2><p>我一个个说说它们，6个凑扎啤</p>
+<ul>
+<li>控制台和文件夹</li>
+</ul>
+<p>具体是这样的，在部署之前每次改完东西都要从控制台输入</p>
+<blockquote>
+<p>hexo clean<br>hexo server<br>这两个东西，主要是用来启动网站的，部署前网站大概是https啥的后面有4000啥的<br>每次改完什么东西都要用控制台这样来一下<br>关键是这个还需要ctrl+c手动给它关上<br>关于这个网站就是4000啥的，它也不是个好东西<br>在改完东西后，并且输入上面那两个东西到控制台的时候，网站也是要重新打开的<br>我总感觉这样说还是没有什么实际的体验，这两个东西很讨厌的<br>这些可以类比为玩游戏时的加载，<strong>但是这个做到了陶德级别的加载</strong><br>请记得控制台的属性<br>我实际上在改主题的时候一直都是双开控制台，一个开网站，一个来输入小q写的指令</p>
+</blockquote>
+<ul>
+<li>vscode和小q</li>
+</ul>
+<p>我本以为上面两位已经是极限了<br>vscode还好，小q真的是让我内牛满面<br>它们也不是完全不好，至少让我更熟练地使用复制粘贴<br>除此以外，我也屋檐了<br>小q真的很关心我</p>
+<pre><code>（17:46 了，今天你从昨晚通宵肝到现在，把 John Doe 换成自己名字，博客才算真正&quot;是你的&quot;了 😄）
+（17:50 了，今天你从通宵一路肝到现在，基础信息填完博客就真正成型了 😄）
+（17:52 了，今天你从通宵一路肝到现在，把这最后一个小占位名干掉就干净了 😄）
+</code></pre>
+<p>先不说我有没有真的熬了20个小时，小q真的很关心我<br>不排除是因为自己的服务器太烧心了所以来劝我别写了<br>哦对了这个时候是我在改主题中的名字和头像<br>最开始我直接用vscode来改文件<br>我就照常做，搜索，确定位置，更改，检查拼写空格，完毕，ctrl+s保存关闭<br>（之后用控制台那些东西乱七八糟地登网站）<br>一看<br>玛德为什么没有变</p>
+<pre><code>还显示 John Doe？那咱得查一下到底是哪没改对 👇
+把输出发我，看看 author: 后面现在到底是 John Doe 还是你已经改的名字。
+</code></pre>
+<p>行吧行吧我都听你的小q</p>
+<pre><code>改了，但没保存
+VS Code 改完必须 Ctrl+S，标签上有个小白点表示没保存。
+</code></pre>
+<p>你特么说啥，那我到底保存了啥，滚木吗<br>我截了一个图给小q</p>
+<pre><code>我没法直接看图哦，需要调用看图技能来识别～
+</code></pre>
+<p>我错了我真的怕了，我无法从中提取到任何信息</p>
+<pre><code>简单说：文件就在 E:\\myblog\_config.yml，你之前改的东西因为没保存/没刷新所以没生效，现在用命令直接写进去就好。 你先敲上面那条替换命令，把确认结果发我 💪
+</code></pre>
+<p>说的倒是轻松，我也确实保存了<br>后来小q直接检查我的本地文件<br>发现真的没有改耶</p>
+<p>这一刻<br>平行时空出现了，量子力学变天了，我观测的东西全变成滚木了<br>我也彻底放空大脑了<br>这些问题后来都是小q通过控制台来改的<br>没办法我现在相信不了vscode<br>包括现在我文件里的名字和博客里的名字还是有区别的</p>
+<p>现在仔细想想，绝对是本地文件出了问题</p>
+<ul>
+<li>本地文件</li>
+</ul>
+<p>后来呢我改头像，我发现我的文件夹里面并没有images这个文件夹<br>除此之外我的主题文件也和滚木一样滚木了<br>我问了小q，他说没有images可以再建一个<br>可是主题文件他只给我一种解决方案，直接从控制台打开<br>当然后来都是直接再控制台改<br>我把我要上传的头像放到images里面<br>改完文件再重复一遍上述操作<br>注意到<br>我尼玛依旧更改了滚木</p>
+<pre><code>哈哈哈变成蝴蝶了 🦋 这其实是 Butterfly 主题在没有正确头像时显示的默认 logo/蝴蝶图标——说明 url 那行还是没被认到，或者图路径没对上。
+</code></pre>
+<p>不对啊，拼写没有问题，图片的路径也没有问题<br>我又跟着小q在本地排查</p>
+<pre><code>你的 01ym.jpg 根本没在 source/images/ 里！ 所以就算路径写对了，图也不存在，还是蝴蝶。
+
+明白了，问题就出在文件名上 👇
+你说图叫 01ym，格式 jpg——那实际文件名应该是 01ym.jpg。但刚才 Get-ChildItem source\images 啥都没输出，说明这个文件夹里现在是空的，图不在里面。
+最可能的情况：你建的 images 文件夹位置不对，或者图没真正拖进去。
+</code></pre>
+<p>什么叫文件名有问题反而问题是不在文件夹里面</p>
+<pre><code>source/images 文件夹是建对了，但里面是空的——你的 01ym.jpg 根本没进去。 图大概还在桌面或下载文件夹里，没真正拖进这个文件夹。
+</code></pre>
+<p>我真的要哭了，我和滚木的关系有这么好吗</p>
+<pre><code>别急别哭 😭 咱不靠猜了，直接用最狠的一招——把生成后的网页文件翻出来，看头像到底有没有被写进去。
+同时你确认一下：你 hexo server 重启了没？ 就是 Ctrl+C 停掉再 hexo clean + hexo server。如果没重启，生成的还是旧页面。
+
+啊，public/index.html 不存在——说明你现在 hexo server 是开着没停，而且没跑过 hexo generate，所以 public 文件夹根本没生成出来。这正好解释了为什么头像一直不更新：页面根本没重新生成过！
+</code></pre>
+<p>你到底在说什么呢，我一直在执行的操作到头来根本没有运行吗<br>（其实运行了，最后问题出在文件里本身就有错误，修复了就好了）</p>
+<hr>
+<h3 id="哦妹得多-哦妹得多-哦妹得多"><a href="#哦妹得多-哦妹得多-哦妹得多" class="headerlink" title="哦妹得多 哦妹得多 哦妹得多"></a>哦妹得多 哦妹得多 哦妹得多</h3><p>最后部署除了github本身自带的破网<br>其他的很轻松</p>
+<p>终于可以不用控制台启动这刷新那的了<br>虽然写博客还是用的vscode<br>但是至少在这方面还是管用的<br>没有变成滚木</p>
+<p>这滚木的漩涡 快要把我滚木求 你別滚木我<br>你说啥 别说空气请说普通话<br>滚木滚木大滚木木</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://example.com">magna1-4</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://example.com/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/">http://example.com/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/img/butterfly-icon.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/11/14/%E6%A0%87%E9%A2%98/" title="请输入文本"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">请输入文本</div></div><div class="info-2"><div class="info-item-1">注意注意一个井号是一级标题，两个三个同理我准备在我正式写博客之前先记录一下语法之类的东西一个星号是斜体两个星号是加粗三个是既斜体又加粗  三个及以上减号是分割线空一行是分段这个没空 这个空了 列表是一个减号空一个在写文字  一 子项目前面再加两个空格   二  数字列表  数字加点空一格 滚木.txt  这些列表我都还没有看到效果  111这个是引用草这个是干嘛的我不知道  链接是 （此处用的是中文字符，记得改为英文字符）【 文本 】（链接） Hexo 官网 图片用一个感叹号！+【图片描述】+（图片.png），此处用中文字符 我没有写代码的需求所以我也不做描述了 就这样吧 </div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">magna1-4</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%B9%E6%9C%AC%E6%B2%A1%E6%9C%89%E7%BE%8E%E5%A5%BD%E6%97%B6%E5%85%89"><span class="toc-number">1.</span> <span class="toc-text">根本没有美好时光</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E9%9D%9E%E5%BE%97%E5%BB%BA%E7%9A%84%E5%BE%88%E9%AB%98%E7%BA%A7%E5%90%97%EF%BC%8C%E5%BB%BA%E7%9A%84%E5%BE%88%E5%A5%BD%E7%AC%91%E4%B8%8D%E8%A1%8C%E5%90%97"><span class="toc-number">1.1.</span> <span class="toc-text">博客非得建的很高级吗，建的很好笑不行吗</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9C%9F%E6%AD%A3%E7%9A%84%E5%B9%B8%E7%A6%8F%E5%9C%A8%E5%93%AA%E9%87%8C"><span class="toc-number">1.2.</span> <span class="toc-text">真正的幸福在哪里</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%93%A6%E5%A6%B9%E5%BE%97%E5%A4%9A-%E5%93%A6%E5%A6%B9%E5%BE%97%E5%A4%9A-%E5%93%A6%E5%A6%B9%E5%BE%97%E5%A4%9A"><span class="toc-number">1.2.1.</span> <span class="toc-text">哦妹得多 哦妹得多 哦妹得多</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/14/%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/" title="记录美好时光">记录美好时光</a><time datetime="2026-11-14T15:20:30.000Z" title="Created 2026-11-14 23:20:30">2026-11-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/14/%E6%A0%87%E9%A2%98/" title="请输入文本">请输入文本</a><time datetime="2026-11-14T09:02:07.000Z" title="Created 2026-11-14 17:02:07">2026-11-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/11/14/hello-world/" title="Hello World">Hello World</a><time datetime="2026-11-14T08:27:07.025Z" title="Created 2026-11-14 16:27:07">2026-11-14</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By magna1-4</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.2"></script><script src="/js/main.js?v=5.7.2"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

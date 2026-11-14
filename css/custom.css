@@ -1,13 +1,10 @@
-:root {
-  --btn-color: #0066CC;
-  --btn-hover-color: #0066CC;
-  --card-border: #0066CC;
-  --link-color: #0066CC;
-  --text-accent: #0066CC;
+#page-header {
+  background-image: url("/img/02shamo.jpg") !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
-#progress { background: #0066CC !important; }
-a:hover { color: #32CD32 !important; }
-.article-container, .card-widget { border-top: 3px solid #0066CC !important; }
-#aside-content .card-widget .card-author-info__name:hover { color: #32CD32 !important; }
-.button--animated { background: #0066CC !important; }
-.button--animated:hover { background: #32CD32 !important; }
+#footer {
+  background: #0066CC !important;
+  color: #ffffff !important;
+}
