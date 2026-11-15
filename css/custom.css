@@ -22,3 +22,7 @@
     display: block;
   }
 }
+/* 文章卡片标题居中 */
+#recent-posts .recent-post-item .article-title {
+  text-align: center !important;
+}
