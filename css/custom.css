@@ -26,3 +26,10 @@
 #recent-posts .recent-post-item .article-title {
   text-align: center !important;
 }
+/* 文章卡片内容垂直居中 */
+#recent-posts .recent-post-item .content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-height: 160px !important;
+}
