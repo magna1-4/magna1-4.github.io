@@ -8,37 +8,3 @@
   background: #0066CC !important;
   color: #ffffff !important;
 }
-/* 首页文章列表双栏 */
-.recent-post-item {
-  width: 45% !important;
-  margin-bottom: 1rem;
-  display: inline-block !important;
-  vertical-align: top !important;
-}
-/* 给右列（偶数卡片）加左边距，制造缝隙 */
-.recent-post-item:nth-child(even){
-  margin-left: 3% !important;
-}
-@media screen and (max-width: 768px) {
-  .recent-post-item {
-    width: 100% !important;
-    display: block !important;
-  }
-  .recent-post-item:nth-child(even){
-    margin-left: 0 !important;
-  }
-}
-
-/* 文章卡片标题居中 */
-.recent-post-item .article-title {
-  text-align: center !important;
-  display: block !important;
-}
-
-/* 文章卡片内容垂直居中 */
-.recent-post-item .content {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  min-height: 150px !important;
-}
