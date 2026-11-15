@@ -9,18 +9,31 @@
   color: #ffffff !important;
 }
 /* 首页文章列表双栏 */
-#recent-posts .recent-post-item {
-  width: 45% !important;
-  margin-bottom: 1rem;
-  display: inline-block;
-  vertical-align: top;
+#recent-posts {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 24px !important;
 }
-
+#recent-posts .recent-post-item {
+  width: 47% !important;
+  margin-bottom: 1rem;
+}
 @media screen and (max-width: 768px) {
   #recent-posts .recent-post-item {
     width: 100% !important;
-    display: block;
   }
+}
+/* 文章卡片标题居中 */
+#recent-posts .recent-post-item .article-title {
+  text-align: center !important;
+}
+/* 文章卡片内容垂直居中 */
+#recent-posts .recent-post-item .content {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  min-height: 160px !important;
 }
 /* 文章卡片标题居中 */
 #recent-posts .recent-post-item .article-title {
