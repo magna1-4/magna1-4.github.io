@@ -8,3 +8,14 @@
   background: #0066CC !important;
   color: #ffffff !important;
 }
+/* 首页文章列表双栏 */
+#recent-posts > .recent-post-item {
+  width: 49% !important;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #recent-posts > .recent-post-item {
+    width: 100% !important;
+  }
+}
